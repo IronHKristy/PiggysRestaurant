@@ -1,0 +1,81 @@
+
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:#ffccff;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.navbar{
+  padding-top:10px;
+}
+
+.navbar-photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo-position {
+    position: relative;
+    -webkit-transform: translateY(-25px);
+    transform: translateY(-25px);
+    margin-bottom: -70px;
+    display:inline-block;
+    z-index:1000;
+}
+
+.pig-photo {
+  float:right;
+  height:124px;
+}
+
+.navbar-links{
+  text-align:center;
+  font-family: 'Francois One', sans-serif;
+  padding-bottom:10px;
+}
+
+
+
+
+/*HOME PAGE*/
+#home{
+  background: url(/images/pancakes2.jpg) 50% 0 repeat fixed; max-height: 100vh;
+  min-height: 700px;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 1920px;
+  position: relative;
+}
+#home article{
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  width: 100%;
+  font-size:50px;
+  color:white;
+}
+#awards{
+  background-image: url(/images/cricut-edge.png);
+  background-repeat:no-repeat;
+  width:100vw;
+  margin-top:-65px;
+  min-height:1000px;
+  opacity:1;
+  position:relative;
+}
+#awards article {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 35px;
+  width: 100%;
+  font-family: 'Francois One', sans-serif;
+  font-size: 51px;
+  color: #242430;
+}
