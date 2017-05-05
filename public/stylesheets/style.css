@@ -36,7 +36,7 @@ a {
 .navbar-links{
   text-align:center;
   font-family: 'Francois One', sans-serif;
-  padding-bottom:10px;
+  padding-bottom:15px;
 }
 
 
@@ -94,7 +94,7 @@ a {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
+  background: #283652;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -126,7 +126,10 @@ a {
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
-  background-color: white;
+  font-family: 'Francois One', sans-serif;
+  text-transform: uppercase;
+  font-size:15px;
+  background-color: #f0e6e4;
   text-align: center;
   padding: 25px;
 }
@@ -147,4 +150,17 @@ a {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
+}
+.fa-times{
+  color:black;
+}
+.award-title {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
 }
