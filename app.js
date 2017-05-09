@@ -25,8 +25,35 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(layouts);
 
-const index = require('./routes/index');
+const index = require('./routes/index.js');
 app.use('/', index);
+
+
+const about = require('./routes/about-us');
+app.use('/about', about);
+
+
+// app.get('/about', function(req, res) {
+//     res.sendFile('.routes/about'));
+// });
+
+// app.get('/', function(req, res) {
+//     res.render('pages/index');
+// });
+
+// about page
+// app.get('/about', function(req, res) {
+//     res.render('./routes/about');
+// });
+
+// router.get('/about', (req, res, next) => {
+//   res.render('./routes/about');
+// });
+// app.route('/about')
+//   .get(function (req, res) {
+//     res.send('about')
+//   });
+
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
