@@ -29,8 +29,8 @@ const index = require('./routes/index.js');
 app.use('/', index);
 
 
-const about = require('./routes/about-us');
-app.use('/about', about);
+// const about = require('./routes/about-us');
+// app.use('/about', about);
 
 
 // app.get('/about', function(req, res) {

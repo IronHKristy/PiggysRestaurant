@@ -6,7 +6,18 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  text-decoration:none;
+  color:inherit;
+}
+
+.no-deco {
+  text-decoration:none;
+  color:#b53838;
+}
+
+.no-deco:hover {
+  text-decoration:none;
+  color:inherit;
 }
 
 .navbar{
@@ -37,6 +48,7 @@ a {
   text-align:center;
   font-family: 'Francois One', sans-serif;
   padding-bottom:15px;
+  text-decoration: none;
 }
 
 
