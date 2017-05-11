@@ -1,8 +1,8 @@
 
 
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color:#ffccff;
+  font: 14px 'Open Sans', sans-serif;
+  /*background-color:#ffbaba;*/
 }
 
 a {
@@ -41,7 +41,7 @@ a {
   margin-bottom: 10px;
 }
 .nav-button:hover{
-  background-color:pink;
+  background-color:#ffbaba;
 }
 .navbar{
   padding-top:10px;
@@ -114,7 +114,7 @@ a {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: #283652;
+  background: #ffbaba;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -189,4 +189,34 @@ a {
   width:100px;
   height:100px;
   color:blue;
+}
+
+footer{
+  background-color:#292933;
+  /*background-color:#272727;*/
+  color:white;
+  padding-top:60px;
+  padding-bottom:60px;
+  text-align:center;
+}
+.footer-icon{
+  height:50px;
+  padding-right:20px;
+}
+.footer-icon-right{
+  height:50px;
+}
+.footer-text{
+  display:block;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top:20px;
+  letter-spacing: 0.2em;
+}
+.second-footer{
+  background-color:#ffbaba;
+  color:#292933;
+  padding-top:25px;
+  padding-bottom:25px;
+  text-align:center;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
