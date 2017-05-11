@@ -10,25 +10,6 @@ a {
   color:inherit;
 }
 
-.no-deco {
-  text-decoration:none;
-  color:#b53838;
-}
-
-.no-deco:hover {
-  text-decoration:none;
-  color:inherit;
-}
-
-.navbar{
-  padding-top:10px;
-}
-
-.navbar-photo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .photo-position {
     position: relative;
@@ -44,10 +25,37 @@ a {
   height:124px;
 }
 
+.no-deco {
+  text-decoration:none;
+  color:#b53838;
+}
+
+.no-deco:hover {
+  text-decoration:none;
+  color:#b53838;
+}
+.nav-button{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+.nav-button:hover{
+  background-color:pink;
+}
+.navbar{
+  padding-top:10px;
+  margin-bottom:0px !important;
+}
+
+.navbar-photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .navbar-links{
   text-align:center;
   font-family: 'Francois One', sans-serif;
-  padding-bottom:15px;
   text-decoration: none;
 }
 
