@@ -85,7 +85,7 @@ a {
   background-repeat:no-repeat;
   width:100vw;
   margin-top:-65px;
-  min-height:1000px;
+  /*min-height:1000px;*/
   opacity:1;
   position:relative;
 }
@@ -192,7 +192,7 @@ a {
 }
 
 footer{
-  background-color:#292933;
+  background-color:#ffb5b6;
   /*background-color:#272727;*/
   color:white;
   padding-top:60px;
@@ -203,8 +203,14 @@ footer{
   height:50px;
   padding-right:20px;
 }
+.footer-icon:hover{
+  opacity:0.7;
+}
 .footer-icon-right{
   height:50px;
+}
+.footer-icon-right:hover{
+  opacity: 0.7;
 }
 .footer-text{
   display:block;
@@ -213,7 +219,7 @@ footer{
   letter-spacing: 0.2em;
 }
 .second-footer{
-  background-color:#ffbaba;
+  background-color:#f0e6e4;
   color:#292933;
   padding-top:25px;
   padding-bottom:25px;

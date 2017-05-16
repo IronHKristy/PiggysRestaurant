@@ -1,0 +1,42 @@
+.breakfast-background-color{
+  background-color:#fcf8e3;
+}
+.menu-top{
+  height:100px;
+  width:100vw;
+  background-color:#ffb5b6;
+}
+h1{
+  text-transform:uppercase;
+}
+
+.menu-list{
+  border-bottom:2px solid #a0a09f;
+  text-transform:uppercase;
+  color:#bc9b5d;
+  font: 14px 'Open Sans', sans-serif;
+  margin-bottom:20px;
+}
+.menu-description{
+  font: 13px 'Open Sans', sans-serif;
+  font-style:italic;
+  color:#605e5e;
+  /*margin-top:20px;*/
+  margin-bottom:20px;
+}
+.list-options{
+  margin-bottom:20px;
+}
+ul{
+  list-style: none;
+  /*text-align:center;*/
+
+}
+li{
+  display:inline;
+  text-transform:uppercase;
+  font: 18px 'Open Sans', sans-serif;
+  border-bottom:1px dotted #605e5e;
+  margin-right:15px;
+  margin-bottom:10px;
+}
