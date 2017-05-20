@@ -10,7 +10,6 @@ a {
   color:inherit;
 }
 
-
 .photo-position {
     position: relative;
     -webkit-transform: translateY(-25px);
@@ -59,6 +58,42 @@ a {
   text-decoration: none;
 }
 
+/*MOBILE MENU*/
+/*@media screen and (max-width: 768px) {
+  .desktop-menu {
+    display:none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display:none;
+  }
+}
+.mobile-navbar-photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.toggle-menu{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  padding: 9px 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  border-image: initial;
+  border-radius: 4px;
+}
+
+.navbar-nav li{
+  text-align:center;
+}*/
 
 
 
@@ -67,7 +102,7 @@ a {
   background: url(/images/pancakes2.jpg) 50% 0 repeat fixed; max-height: 100vh;
   min-height: 700px;
   margin: 0 auto;
-  width: 100vw;
+  /*width: 100vw;*/
   max-width: 1920px;
   position: relative;
 }
@@ -83,7 +118,7 @@ a {
 #awards{
   background-image: url(/images/cricut-edge.png);
   background-repeat:no-repeat;
-  width:100vw;
+  width:100%;
   margin-top:-65px;
   /*min-height:1000px;*/
   opacity:1;
