@@ -1,4 +1,14 @@
 #map {
-        height: 50vh;
-      
-      }
+  height: 50vh;
+}
+
+.directions{
+  background-color:#fcf8e3;
+}
+
+.header-text{
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  font-size: 51px;
+  color: #242430;
+}
