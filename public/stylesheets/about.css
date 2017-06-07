@@ -1,8 +1,3 @@
-.about-bg{
-  /*background-color:#ffbaba;*/
-  /*background-color:brown;*/
-}
-
 #about-pic{
   background: url(/images/piggys.jpg) 50% 0 repeat fixed; max-height: 100vh;
   min-height: 700px;

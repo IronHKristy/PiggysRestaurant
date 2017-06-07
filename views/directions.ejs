@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="/stylesheets/directions.css">
 
-<div class="container-fluid">
+<!-- <div class="container-fluid">
 
 
     <div class="row" id="map"></div>
@@ -63,4 +63,95 @@
           <p>From I-80 West: Take exit 284, Blakeslee, and turn left onto Rt. 115. After 3 miles, take a Right onto Rt. 903. Another 3 miles will bring you to Big Boulder Mountain Road (which is known as Lake Drive at the other end). Follow Lake Drive to the stop sign at Piggy's in Lake Harmony!</p>
         </div>
 
+</div> -->
+
+
+
+<div class="container-fluid about-bg">
+  <!-- <div class="row"> -->
+  <div class="row">
+
+    <section id="map" data-type="background" data-speed="10" class="pages">
+          <script>
+            function initMap() {
+              var restaurant = {lat: 41.060623, lng: -75.591204};
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 16,
+                scrollwheel: false,
+                center: restaurant
+              });
+
+              var contentString = '<div id="content">'+
+                '</div>'+
+                '<h1>Piggys Restaurant</h1>'+
+                '<div id="bodyContent">'+
+                '<a href="https://www.google.com/maps/place/Piggys/@41.0606239,-75.5912084,15z/data=!4m5!3m4!1s0x0:0x79cae1ba6ee94246!8m2!3d41.0606239!4d-75.5912084"><p>Directions to: 16 N Lakeshore Dr, Lake Harmony, PA 18624</p></a>'+
+                '</div>'+
+                '</div>';
+
+              var infowindow = new google.maps.InfoWindow({
+                content: contentString
+              });
+
+              var marker = new google.maps.Marker({
+                position: restaurant,
+                map: map,
+                title: 'Uluru (Ayers Rock)'
+              });
+              marker.addListener('click', function() {
+                infowindow.open(map, marker);
+              });
+            }
+          </script>
+
+
+          <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDbonUFD0KILkQUvaHKwGtf-JqHV9XBVU&callback=initMap">
+          </script>
+          <article></article>
+    </section>
+  </div>
+
+
+
+
+
+
+
+  <div class="row">
+    <section id="about-text" data-type="background" data-speed="10" class="pages">
+        <article>PIGGY'S TALE</article>
+        <div class="piggys-tale">
+          <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+            <div class="row about-paragraphs">
+              Piggy's Restaurant was founded in 1985 with the goal of serving only the highest quality food, prepared with care, and served by a courteous and friendly wait-staff. We find our foods and ingredients by regularly attending food shows in search of the best possible products.
+            </div>
+
+            <div class="row about-paragraphs">
+              A few of the quality foods we serve at this time are Hatfield Meats, Thomas English Muffins, Arnolds Brick Oven Breads, Smuckers Jellies, Lipton Teas, and Maxwell House Coffee.
+            </div>
+
+            <div class="row about-paragraphs">
+              The coffee, juices, Coca-Cola sodas, hot chocolate, and water all taste good thanks to an on-site water treatment system that softens, triple-filters, UV purifies and PH balances the water.
+            </div>
+
+            <div class="row about-paragraphs">
+              The fresh dairy products come from a local farmers' co-op with members who do not use bovine hormones on their herds.
+            </div>
+
+            <div class="row about-paragraphs">
+              Some items are made using our own original recipes. Our pancakes are blended from fresh ingredients in small batches to ensure each pancake is like homemade. Our French and Batter toasts have pure vanilla extracts that give them unique flavor. We bake our complimentary blueberry muffins everyday with wild Canadian blueberries that are small and sweet. Some days we bake over a thousand muffins.
+            </div>
+
+            <div class="row about-paragraphs">
+              The best part of Piggy's Restaurant is our staff. They are here to make your visit to our restaurant a pleasant experience, which we hope you will want to repeat. You, the customer, are the reason we work hard to present you with the best, and our staff will try to accommodate you whenever possible.
+            </div>
+
+            <div class="row about-paragraphs">
+              THE OWNER AND STAFF THANK YOU FOR CHOOSING PIGGY'S RESTAURANT
+            </div>
+          </div>
+        </div>
+    </section>
+  </div>
 </div>
