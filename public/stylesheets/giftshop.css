@@ -55,9 +55,8 @@
   max-width: 300px;
   margin: 0 auto;
   font-family: 'Francois One', sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size:15px;
-  background-color: #f0e6e4;
   text-align: center;
   padding: 25px;
 }
@@ -74,7 +73,10 @@
 #store * {
   z-index: 2;
 }
-
+.caption-small{
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
 
 
 
@@ -87,6 +89,7 @@
   min-height: 100%;
   padding: 100px 0;
   text-align: center;
+  background-color:#fcf8e3;
 }
 .store-modal .modal-content h2 {
   margin: 0;
