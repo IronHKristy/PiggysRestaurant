@@ -1,10 +1,13 @@
 .breakfast-background-color{
   background-color:#fcf8e3;
 }
-.menu-top{
+/*.menu-top{
   height:100px;
-  /*width:100%;*/
   background-color:#ffb5b6;
+}*/
+.menu-top{
+  background: url(/images/cricut-edge-red.png);
+  height:150px;
 }
 h1{
   text-transform:uppercase;
