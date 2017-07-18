@@ -14,16 +14,14 @@
 }
 
 #map{
-  /*background: url(/images/piggys.jpg) 50% 0 repeat fixed; max-height: 100vh;*/
-  min-height: 700px;
+  min-height: 600px;
   margin: 0 auto;
   /*width: 100vw;*/
   max-width: 1920px;
-  position: relative;
 }
 #map article{
   height: 458px;
-  position: absolute;
+  /*position: absolute;*/
   text-align: center;
   top: 150px;
   width: 100%;
@@ -34,7 +32,6 @@
 #about-text{
   background-image: url(/images/cricut-edge.png);
   background-repeat:no-repeat;
-  width:100%;
   margin-top:-65px;
   /*min-height:100vh;*/
   opacity:1;
@@ -50,4 +47,21 @@
   font-family: 'Francois One', sans-serif;
   font-size: 51px;
   color: #242430;
+}
+
+.about-bg {
+  padding-left:0px;
+  padding-right:0px;
+}
+
+.piggys-directions{
+  padding-top:175px;
+  text-align:center;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.direction-from{
+  padding-top:20px;
+  padding-bottom:20px;
 }
